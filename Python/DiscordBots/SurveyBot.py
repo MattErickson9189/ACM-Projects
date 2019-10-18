@@ -3,7 +3,7 @@ from discord.ext import commands
 import configparser
 
 config = configparser.RawConfigParser()
-config.read('config.properties')
+config.read('/home/matt/Documents/Programming/ACM-Projects/Python/DiscordBots/surveyBotConfig.properties')
 
 token = config.get('BotTokenSection','bot.token')
 
